@@ -1,0 +1,40 @@
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    color: darkblue;
+}
+
+p {
+    color:darkmagenta;
+}
+
+
+input[type="text"],
+input[type="email"]
+ {
+  width : 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+button {
+    text-align: center;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+
+  .purchase {
+    background-color:darkblue;
+    color:white;
+    padding: 1ex 1ex 1ex 1ex;
+}

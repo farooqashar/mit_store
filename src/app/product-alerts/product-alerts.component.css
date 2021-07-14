@@ -1,0 +1,15 @@
+
+@keyframes mainTitle {
+    from {color: red;}
+    to {color: white;}
+    to {color: blue;}
+
+  }
+
+h3 {
+    color: darkred;
+    animation-name:mainTitle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+

@@ -1,0 +1,15 @@
+
+h2 {
+    text-align: center;
+    color:blue;
+}
+
+.share {
+    background-color:darkblue;
+    color:white;
+    padding: 1ex 1ex 1ex 1ex;
+}
+
+p {
+    color:darkmagenta;
+}

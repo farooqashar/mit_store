@@ -1,0 +1,25 @@
+<h2>Products</h2>
+
+<p>Click on a product to see more details and add it to the cart for purchasing!</p>
+
+<div *ngFor="let product of products">
+    <h3>
+        <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+            {{ product.name }}
+        </a>
+        <br/>
+        {{ product.price | currency }}
+
+    </h3>
+
+      <app-product-alerts
+        [product]="product"
+        (notify)="onNotify()">
+    </app-product-alerts>
+
+</div>
+
+<br/>
+<br/>
+
+<a class = "share" href="mailto:enteremail@example.com?cc=someoneelse@example.com, another@example.com&bcc=someone@example.com&subject=MIT%20Store%20Website&body=Checkout%20this%20website%20for%20affordable%20items!">Share This Website!</a>

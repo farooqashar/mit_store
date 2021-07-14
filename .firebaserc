@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mit-store": {
+      "hosting": {
+        "mit-store": [
+          "mit-store"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mit-store"
+  }
+}
